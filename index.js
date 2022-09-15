@@ -6,15 +6,13 @@ let passEL1=document.getElementById("pass-1");
 let passEL2=document.getElementById("pass-2");
 
 let isGenerated=false;
+let string="";
+let count=0;
 
-function generate(event){
-    if(event.target.nodeName == "BUTTON"){
-        arr.push(event.target.textContent);
+
+    for(let i=1;i<=15;i++){
+        let getEl=document.getElementById(`button${i}`);
     }
-    console.log(current);
-}
-
-
 
 function generate1(){
     if(isGenerated===false){
@@ -30,4 +28,7 @@ function generate1(){
 function getRandom(){
     let randomNum=Math.floor(Math.random()*characters.length);
     return randomNum;
+}
+function getRandom1(){
+    return Math.floor(Math.random()*arr.length);
 }

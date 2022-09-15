@@ -98,7 +98,7 @@ top: 570px;
 background: #273549;
 border-radius: 6px;
 padding-top: 10px;
-padding-left: 30px;
+padding-left: 6px;
 }
 #pass-2{
     color: white;
@@ -108,7 +108,7 @@ height: 30px;
 left: 450px;
 top: 570px;
 padding-top: 10px;
-padding-left: 30px;
+padding-left: 6px;
 background: #273549;
 border-radius: 6px;
 }
@@ -228,13 +228,13 @@ color: #6B7280;
     left: 1060px;
     top: 340px;
     background-color:#273549 ;
-    width: 150px;
+    width: 200px;
     height: 30px;
     border: none;
     border-radius:5px;
     color:white;
-    padding-left: 70px;
-    padding-top: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 .og-0{
     position: absolute;
